@@ -1,8 +1,8 @@
 <h1 align="center">
-  <img width="450px" src="" /> 
-  <br>
-  Podcastr
+  <img width="450px" src="https://github.com/amandasaporiti/podcastr/blob/master/src/assets/cover-readme.png?raw=true"/> 
 </h1>
+
+<h2 align="center">Podcastr</h2>
 
 <h3 align="center">
   Escute seus podcasts de programação preferidos.
@@ -12,19 +12,21 @@
 
 <p align="center">
   <a href="#house-sobre-o-projeto">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#computer-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#runner-rodando-o-projeto">Rodando o projeto</a>
-   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#art-layout">Layout</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#computer-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#construction_worker-instalação">Instalação</a>
+   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#runner-deploy">Deploy</a>
 </p>
 
 <br>
 
-<img alt="Podcastr Home" src="https://github.com/amandasaporiti/dt-money/blob/master/src/assets/dt-money-interface.png?raw=true">
-<img alt="Podcastr Home Empty Player" src="https://github.com/amandasaporiti/dt-money/blob/master/src/assets/dt-money-interface.png?raw=true">
-<img alt="Poscastr" src="https://github.com/amandasaporiti/dt-money/blob/master/src/assets/cadastro-interface.png?raw=true">
+<img alt="Podcastr Home Empty Player" src="https://github.com/amandasaporiti/podcastr/blob/master/src/assets/home-empty.PNG?raw=true">
+<img alt="Podcastr Home" src="https://github.com/amandasaporiti/podcastr/blob/master/src/assets/home-playing.PNG?raw=true">
+<img alt="Poscastr" src="https://github.com/amandasaporiti/podcastr/blob/master/src/assets/podcastr-slug.PNG?raw=true">
+
+<br>
 
 ## :house: Sobre o projeto
 
@@ -82,11 +84,12 @@ $ yarn dev
 
 # O app vai está rodando na porta 3000 - acesse <http://localhost:3000>
 
+# API BASE URL
+$ https://podcastr-json-server-api.vercel.app
 
-# Antes de rodar o projeto é necessário rodar o servidor do json server primeiro, localizado no arquivo db.json, para isso execute o seguinte comando::
+#endpoint
 
-$ npm run dev:server
-$ yarn dev:server
+$ /episodes
 ```
 
 <br>
