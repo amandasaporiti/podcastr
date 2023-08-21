@@ -95,11 +95,9 @@ $ /episodes
 <br>
 <br>
 
-## :runner: We are online
+## :runner: Deploy
 
-<a></a>
-
-<br>
+[We are ONLINE, try Now](https://podcastr-online.vercel.app/) :tada:<br>
 
 <br>
 
