@@ -1,0 +1,53 @@
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  justify-content: center;
+  margin-top: 40px;
+
+  button {
+    border: 0;
+    background: transparent;
+    font-size: 0;
+
+    transition: filter 0.2s;
+
+    &:disabled {
+      opacity: 0.5;
+      cursor: default;
+    }
+
+    &.empty {
+      opacity: 0.5;
+    }
+
+    &:hover:not(:disabled) {
+      filter: brightness(0.8);
+    }
+
+    &.playButton {
+      padding: 16px;
+      border-radius: 16px;
+      background: var(--purple-400);
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      transition: filter 0.2s;
+
+      &:hover:not(:disabled) {
+        filter: brightness(0.95);
+      }
+    }
+
+    &.isActive {
+      filter: invert(0.35) sepia(1) saturate(3) hue-rotate(100deg);
+    }
+
+    &.isActive:hover {
+      filter: brightness(0.6) invert(0.35) sepia(1) saturate(3)
+        hue-rotate(100deg);
+    }
+  }
+}

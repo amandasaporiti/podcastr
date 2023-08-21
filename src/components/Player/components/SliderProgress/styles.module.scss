@@ -1,0 +1,22 @@
+.progress {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+
+  span {
+    color: var(--white);
+    font-size: 14px;
+    display: inline-block;
+  }
+
+  .sliderWrapper {
+    flex: 1;
+
+    .slider {
+      width: 100%;
+      height: 4px;
+      background: var(--purple-300);
+      border-radius: 10px;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 4rem;
+  background: var(--white);
+  border-bottom: 1px solid var(--gray-100);
+
+  div {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+
+    p {
+      font-size: 14px;
+      color: var(--gray-500);
+    }
+  }
+
+  span {
+    font-size: 14px;
+    color: var(--gray-500);
+    text-transform: capitalize;
+  }
+}
